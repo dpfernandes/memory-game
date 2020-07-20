@@ -1,7 +1,6 @@
-@import url('/../../assets/fonts/Avenir/Avenir-Book.ttf');
 .button-component {
   color: white;
-  font-family: 'Avenir-Book', cursive;
+  font-family: sans-serif;
   background: #f26114;
   border-radius: 10px;
   border: none;

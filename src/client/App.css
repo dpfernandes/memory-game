@@ -14,7 +14,6 @@ li,
 p {
   padding: 0px;
   margin: 0px;
-  font-family: Avenir-Book;
 }
 
 img {
@@ -69,7 +68,7 @@ img {
 }
 
 .homelogocontainer h1 {
-  font-family: 'Avenir-Book', cursive;
+  font-family: sans-serif;
   color: #ffffff;
   text-align: center;
 }

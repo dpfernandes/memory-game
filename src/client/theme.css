@@ -3,18 +3,3 @@
   --black: #000;
   --white: #fff;
 }
-
-@font-face {
-  font-family: Avenir;
-  src: url('./assets/fonts/Avenir/Avenir-Book.ttf'),
-    url('./assets/fonts/Avenir/Avenir-Light.ttf'),
-    url('./assets/fonts/Avenir/Avenir-Roman.ttf');
-}
-@font-face {
-  font-family: CenturyGothic;
-  src: url('./assets/fonts/Century_Gothic/Century_Gothic.ttf');
-}
-@font-face {
-  font-family: CooperBlack;
-  src: url('./assets/fonts/Cooper_Black/Cooper_Black_Regular.ttf');
-}
