@@ -10,8 +10,8 @@ import { ErrorPage } from './containers/404Page/404Page.component';
 import { GamePage } from './containers/GamePage/GamePage.component';
 import { PickGamePage } from './containers/PickGamePage/PickGamePage.component';
 import { PickLevelPage } from './containers/PickLevelPage/PickLevelPage.component';
-import { VoucherPage } from './containers/VoucherPage/VoucherPage.component';
 import { RecipePage } from './containers/RecipePage/RecipePage.component';
+import { VoucherPage } from './containers/VoucherPage/VoucherPage.component';
 import { AppContext } from './AppContext';
 
 function App() {
@@ -38,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/recipe-page">
             <RecipePage />
+          </Route>
+          <Route exact path="/voucher-page">
+            <VoucherPage />
           </Route>
           <Route exact path="/404-page">
             <ErrorPage />
