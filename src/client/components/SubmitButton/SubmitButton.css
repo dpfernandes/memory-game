@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&family=Roboto&display=swap');
+@import url('/../../assets/fonts/Avenir/Avenir-Book.ttf');
 .button-component {
   color: white;
-  font-family: 'Rammetto One', cursive;
+  font-family: 'Avenir-Book', cursive;
   background: #f26114;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   width: 100%;
   font-size: 25px;

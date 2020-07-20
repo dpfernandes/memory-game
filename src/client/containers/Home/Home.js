@@ -1,31 +1,30 @@
 import React from 'react';
 import '../../App.css';
-import GameLogo from '../../assets/images/logo/logo-treasure-hunt-withe.svg';
+
+import GameLogoComponent from '../../components/GameLogoComponent/GameLogoComponent';
+import SpoonImageComponent from '../../components/SpoonImageComponent/SpoonImageComponent';
+import ForkImageComponent from '../../components/ForkImageComponent/ForkImageComponent';
+import Title from '../../components/Title/Title';
 import SubmitButton from '../../components/SubmitButton/SubmitButton';
 import Footer from '../../components/FooterComponent/FooterComponent';
 
 export const Home = () => (
   <section className="home bodycontainer">
     <div className="bodywrapper">
-      <div className="homelogocontainer">
+      <div className="headercontainer">
         <div className="homelogo">
-          <img src={GameLogo} alt="Game Logo" />
+          <GameLogoComponent />
         </div>
-        <h1>Treasure Hunt</h1>
+        <Title title="Memory Game" subtitle="- perserve culinary heritage -" />
       </div>
+      <ForkImageComponent />
       <SubmitButton
-        buttonTitle="Join Game"
+        buttonTitle="Play EAT THE PAIR"
         onClick={() => {
-          location.href = '../share-game-page';
+          location.href = '../pick-game-page';
         }}
       />
-      <SubmitButton
-        buttonTitle="Start Game"
-        onClick={() => {
-          location.href = '../create-team-page';
-        }}
-      />
+      <SpoonImageComponent /> <Footer />
     </div>
-    <Footer />
   </section>
 );

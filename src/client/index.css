@@ -1,7 +1,7 @@
 @import 'theme.css';
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Avenir-Book', sans-serif;
   box-sizing: border-box;
 }
 
@@ -18,23 +18,3 @@ h6 {
   padding: 0;
   margin: 0;
 }
-/* 
-#root:before {
-  content: '';
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-image: url('./assets/images/background/background-treasure-map.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 2200px;
-  background-position: 10% 15%;
-  opacity: 10%;
-  z-index: -1;
-}
-@media (max-width: 576px) {
-  #root:before {
-    background-size: 1300px;
-    background-position: 90% 30%;
-  }
-} */

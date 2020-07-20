@@ -5,16 +5,16 @@
 }
 
 @font-face {
-  font-family: RammettoOne;
-  src: url('./assets/fonts/Rammetto_One/RammettoOne-Regular.ttf');
+  font-family: Avenir;
+  src: url('./assets/fonts/Avenir/Avenir-Book.ttf'),
+    url('./assets/fonts/Avenir/Avenir-Light.ttf'),
+    url('./assets/fonts/Avenir/Avenir-Roman.ttf');
 }
 @font-face {
-  font-family: PostNoBills;
-  src: url('./assets/fonts/Post_No_Bills/PostNoBillsColombo-Extrabold.ttf');
+  font-family: CenturyGothic;
+  src: url('./assets/fonts/Century_Gothic/Century_Gothic.ttf');
 }
 @font-face {
-  font-family: Roboto;
-  src: url('./assets/fonts/Roboto/Roboto-Regular.ttf'),
-    url('./assets/fonts/Roboto/Roboto-Medium.ttf'),
-    url('./assets/fonts/Roboto/Roboto-Bold.ttf');
+  font-family: CooperBlack;
+  src: url('./assets/fonts/Cooper_Black/Cooper_Black_Regular.ttf');
 }

@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Post_no_bills';
-  src: url(../../assets/fonts/Post_No_Bills/PostNoBillsColombo-Extrabold.ttf);
+  font-family: 'CenturyGothic';
+  src: url(../../../client/assets/fonts/Century_Gothic/Century_Gothic.ttf);
 }
 
 .timer-content {
-  font-family: 'Post_No_Bills';
-  font-size: 35px;
-  color: rgba(251, 168, 92, 1);
+  font-family: 'CenturyGothic';
+  font-size: 25px;
+  color: #707070;
 }

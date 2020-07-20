@@ -2,24 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Title.styles.css';
 
-import icon from '../../assets/images/logo/logo-treasure-hunt-brown.svg';
-import shareicon from '../../assets/images/icons/share-icon.svg';
-
-export default function HeaderTitle({ title }) {
+export default function HeaderTitle({ title, subtitle }) {
   const content = (
-    <h2>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
       <span>
-        <img src={icon} alt="App Icon" />
+        <h2>{title}</h2>
+        <h3>{subtitle}</h3>
       </span>
-      <span>{title}</span>
-      <span>
-        <img src={shareicon} alt="Share Icon" />
-      </span>
-    </h2>
+    </div>
   );
   return <div className="header-heading">{content}</div>;
 }
 
 HeaderTitle.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
 };

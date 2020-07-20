@@ -13,7 +13,7 @@ const Timer = ({ countdown }) => {
 
   return (
     <div className="timer-content">
-      <span>{moment.unix(counter).format('mm:ss')}</span>
+      Timer: <span>{moment.unix(counter).format('mm:ss')}</span>
     </div>
   );
 };

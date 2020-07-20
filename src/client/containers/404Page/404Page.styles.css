@@ -1,6 +1,7 @@
 .error-page-container {
-  background-image: url('../../assets/images/logo/logo-treasure-hunt-withe.svg');
+  background-image: none;
 }
+
 .error-logo-container {
   text-align: center;
   padding-top: 1rem;
