@@ -5,7 +5,6 @@ export default function FooterComponent() {
   return (
     <footer className="footer-component">
       <div>This is a Banner</div>
-      
     </footer>
   );
 }
