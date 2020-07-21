@@ -101,6 +101,8 @@
     "not op_mini all"
   ],
   "husky": {
-    "hooks": {}
+    "hooks": {
+      "pre-commit": "npm run code:check"
+    }
   }
 }
