@@ -11,7 +11,7 @@
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Project's Calendar](#-projects-calendar)
+- [Project's phases](#-projects-phases)
 - [The Customer](#-the-customer)
   - [Business Glossary](/BusinessGlossary.md)
 - [Process](#-process-)
@@ -43,14 +43,14 @@ This repository is for a memory game project
 - [Knex](http://knexjs.org/) - Database management
 - [Swagger](https://swagger.io/) - API Documentation
 
-## 📅 Project's Phases
+## 📅 Project's Phases  <a name = "projects-phases"></a>
 
-1st  → Make the game work with 1 level and 1 meal and use the sound file.
+- 1st  → Make the game work with 1 level and 1 meal and use the sound file.
 Use this tutorial to get inspiration for the game logic  https://youtu.be/28VfzEiJgy4
-2nd  → Add levels and Add the 2nd meal
-3rd  → Add dynamic banners and implement system to measure clicks and impressions(views) - https://medium.com/@sanishkr/react-components-tracking-impressions-and-clicks-2fc9af1cc2c and https://www.freecodecamp.org/news/ how-to-track-user-interactions-in-your-react-app-b82f0bc4c7ff/
-4th  → Add a Performance and User Tracking with the goal of collecting data to sell the banners (https://www.freecodecamp.org/news/performance-and-user-tracking-in-react-with-google-analytics/)
-5th  → Add a Control Panel where you can add more games, images, banners and so on
+- 2nd  → Add levels and Add the 2nd meal
+- 3rd  → Add dynamic banners and implement system to measure clicks and impressions(views) - https://medium.com/@sanishkr/react-components-tracking-impressions-and-clicks-2fc9af1cc2c and https://www.freecodecamp.org/news/ how-to-track-user-interactions-in-your-react-app-b82f0bc4c7ff/
+- 4th  → Add a Performance and User Tracking with the goal of collecting data to sell the banners (https://www.freecodecamp.org/news/performance-and-user-tracking-in-react-with-google-analytics/)
+- 5th  → Add a Control Panel where you can add more games, images, banners and so on
 
 
 ## 👩🏻‍💼💡👨🏽‍💼 The Customer
