@@ -14,7 +14,7 @@ export default function TeamTitle({ title }) {
 
   return (
     <div className="title-div">
-      <h3 className="title">{title}</h3>
+      <h1 className="title">{title}</h1>
     </div>
   );
 }

@@ -2,20 +2,20 @@ import React from 'react';
 import Mymap from '../Map/Map';
 import Title from '../GameTitle/GameTitle';
 import LocationComponent from '../LocationComponent/LocationComponent';
-import Button from '../SubmitButton/SubmitButton';
+import Button from '../ButtonComponent/Button';
 import './GameDescriptionStyle.css';
 
 const GameDescription = () => {
   return (
     <div className="card">
-      <div className="cardcontainer">
+      <div className="container">
         <Mymap latitude="55.661869" longitude="12.540742" />
         <div className="titleLocation">
-          <div className="titleLocationwrapper">
+          <div>
             <Title title="Title Game" />
             <LocationComponent />
           </div>
-          <div className="choosebox">
+          <div>
             <Button buttonTitle="choose" />
           </div>
         </div>

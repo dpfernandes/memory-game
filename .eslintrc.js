@@ -31,13 +31,4 @@ module.exports = {
       },
     ],
   },
-  overrides: [
-    {
-      files: ['**/*.controller.js'],
-      rules: {
-        '@typescript-eslint/camelcase': ['off'],
-        camelcase: ['off'],
-      },
-    },
-  ],
 };
