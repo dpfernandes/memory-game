@@ -1,27 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ButtonComponent from '../SubmitButton/SubmitButton';
+import ButtonComponent from '../ButtonComponent/ButtonComponent';
 import './SingleInputFormComponent.style.css';
 
-export default function SingleInputFormComponent({
-  inputLabel,
-  value,
-  buttonTitle,
-  placeholder,
-  onSubmit,
-  onChange,
-}) {
+export default function SingleInputFormComponent({ inputLabel, value, title }) {
   return (
-    <form className="form" onSubmit={(e) => onSubmit(e)}>
+    <form className="form">
       <label className="form-label">{inputLabel}</label>
-      <input
-        className="form-input m-top m-bot"
-        type="text"
-        onChange={(e) => onChange(e)}
-        placeholder={placeholder}
-        value={value}
-      />
-      <ButtonComponent buttonTitle={buttonTitle} disabled={!value} />
+      <input className="form-input" type="placeholder" value={value} />
+      <ButtonComponent title={title} />
     </form>
   );
 }
@@ -29,12 +16,5 @@ export default function SingleInputFormComponent({
 SingleInputFormComponent.propTypes = {
   inputLabel: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,
-  buttonTitle: PropTypes.string.isRequired,
-  placeholder: PropTypes.string,
-  onChange: PropTypes.func.isRequired,
-  onSubmit: PropTypes.func.isRequired,
-};
-
-SingleInputFormComponent.defaultProps = {
-  placeholder: '',
+  title: PropTypes.string.isRequired,
 };
