@@ -67,21 +67,22 @@ img {
   padding: 5%;
 }
 
-.homelogocontainer {
+.headercontainer {
   width: 100%;
-  padding: 39% 10% 26% 10%;
+  padding: 10% 10% 26% 10%;
 }
+
 .homelogo {
-  width: 65.5%;
+  width: 50%;
   margin: 0px auto 4% auto;
 }
 
 .homelogocontainer h1 {
-  font-family: 'Rammetto One', cursive;
+  font-family: sans-serif;
   color: #ffffff;
   text-align: center;
-  font-size: 29px;
 }
+
 .bodywrapper .button-component {
   margin-bottom: 7%;
 }
