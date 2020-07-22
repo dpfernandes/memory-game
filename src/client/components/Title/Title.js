@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Title.styles.css';
 
-import icon from '../../assets/images/logo/logo-treasure-hunt-brown.svg';
+import icon from '../../assets/images/logo/logo_3x.png';
 
 export default function HeaderTitle({ title }) {
   const content = (
