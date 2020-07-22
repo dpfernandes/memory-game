@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './containers/Home/Home';
-import { ErrorPage } from './containers/404Page/404Page.component';
 import { AppContext } from './AppContext';
 
 function App() {
