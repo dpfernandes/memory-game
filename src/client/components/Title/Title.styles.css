@@ -1,24 +1,16 @@
-.header-heading img {
-  height: 29px;
-  margin-left: 20px;
-}
-.bodycontainer {
-  background-color: rgba(251, 168, 92, 1);
-}
-
 .header-heading h2 {
-  color: rgba(128, 83, 51, 1);
-  font-weight: bold;
-  font-size: 22px;
-  background-color: #fff;
+  color: #0a63af;
+  font-weight: bolder;
+  font-size: 35px;
+  background-color: white;
   text-align: center;
-  display: flex;
-  box-shadow: 0px 3px 5px #00000024;
-  padding: 15px 0px;
+  padding: 5px 0px 5px 0px;
   min-height: 56px;
 }
 
-span {
-  width: 80%;
-  font-family: 'Roboto', sans-serif;
+.header-heading span {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
 }

@@ -2,18 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Title.styles.css';
 
-import icon from '../../assets/images/logo/logo_3x.png';
-
-export default function HeaderTitle({ title }) {
+export default function HeaderTitle({ title, subtitle }) {
   const content = (
-    <h2>
-      <img src={icon} alt="App Icon" />
-      <span>{title}</span>
-    </h2>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <span>
+        <h2>{title}</h2>
+        <h3>{subtitle}</h3>
+      </span>
+    </div>
   );
   return <div className="header-heading">{content}</div>;
 }
 
 HeaderTitle.propTypes = {
   title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
 };
