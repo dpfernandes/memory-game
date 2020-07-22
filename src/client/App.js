@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
 import { Home } from './containers/Home/Home';
+import { ErrorPage } from './containers/404Page/404Page.component';
 import { GamePage } from './containers/GamePage/GamePage.component';
 import { PickGamePage } from './containers/PickGamePage/PickGamePage.component';
 import { PickLevelPage } from './containers/PickLevelPage/PickLevelPage.component';
@@ -33,6 +39,10 @@ function App() {
           <Route exact path="/voucher-page">
             <VoucherPage />
           </Route>
+          <Route exact path="/404-page">
+            <ErrorPage />
+          </Route>
+          <Redirect to="/404-page" />
         </Switch>
       </Router>
     </AppContext.Provider>
