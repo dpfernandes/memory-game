@@ -86,7 +86,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",
-    "concurrently": "^5.2.0",
+    "concurrently": "^4.1.0",
     "express-form-data": "^2.0.10",
     "husky": "^2.4.1",
     "identity-obj-proxy": "^3.0.0",
@@ -95,7 +95,7 @@
     "nodemon": "^1.12.1",
     "poetic": "^1.2.6",
     "sequelize-cli": "^5.4.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "3.7.2"
   },
   "jest": {
     "moduleNameMapper": {
