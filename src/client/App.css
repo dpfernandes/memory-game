@@ -27,28 +27,28 @@ img {
 .bodycontainer {
   margin: 0px auto;
   position: relative;
-  background-color: rgba(249, 165, 90, 1);
+  background-color: rgb(242, 241, 236);
   background-position: 0 0;
   background-repeat: no-repeat;
 
   /* CSS gradients */
-  background: rgba(249, 165, 90, 1); /* Old browsers */
+  background: rgb(242, 241, 236); /* Old browsers */
   background: -moz-linear-gradient(
     top,
-    rgba(249, 165, 90, 1) 0%,
-    rgba(235, 127, 68, 1) 100%
+    rgb(242, 241, 236) 0%,
+    rgb(220, 223, 217) 100%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
-    rgba(249, 165, 90, 1) 0%,
-    rgba(235, 127, 68, 1) 100%
+    rgb(242, 241, 236) 0%,
+    rgb(220, 223, 217) 100%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    rgba(249, 165, 90, 1) 0%,
-    rgba(235, 127, 68, 1) 100%
+    rgb(242, 241, 236) 0%,
+    rgb(220, 223, 217) 100%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(249, 165, 90, 1)', endColorstr='rgba(235, 127, 68, 1)',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(242,241,236)', endColorstr='rgb(220,223,217)',GradientType=0 ); /* IE6-9 */
   z-index: 1;
 }
 .bodycontainer::before {
