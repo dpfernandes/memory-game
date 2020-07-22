@@ -6,7 +6,7 @@ import '../../App.css';
 // import ForkImageComponent from '../../components/ForkImageComponent/ForkImageComponent';
 import Title from '../../components/Title/Title';
 // import SubmitButton from '../../components/SubmitButton/SubmitButton';
-import Footer from '../../components/FooterComponent/FooterComponent';
+// import Footer from '../../components/FooterComponent/FooterComponent';
 
 export const Home = () => (
   <section className="home bodycontainer">
@@ -23,7 +23,7 @@ export const Home = () => (
         }}
       /> */}
       {/* <SpoonImageComponent />  */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   </section>
 );
