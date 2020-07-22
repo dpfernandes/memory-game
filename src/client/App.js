@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './containers/Home/Home';
+import { GamePage } from './containers/GamePage/GamePage.component';
+import { PickGamePage } from './containers/PickGamePage/PickGamePage.component';
+import { PickLevelPage } from './containers/PickLevelPage/PickLevelPage.component';
+import { RecipePage } from './containers/RecipePage/RecipePage.component';
+import { VoucherPage } from './containers/VoucherPage/VoucherPage.component';
 import { AppContext } from './AppContext';
 
 function App() {
@@ -12,6 +17,21 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/game-page">
+            <GamePage />
+          </Route>
+          <Route exact path="/pick-game-page">
+            <PickGamePage />
+          </Route>
+          <Route exact path="/pick-level-page">
+            <PickLevelPage />
+          </Route>
+          <Route exact path="/recipe-page">
+            <RecipePage />
+          </Route>
+          <Route exact path="/voucher-page">
+            <VoucherPage />
           </Route>
         </Switch>
       </Router>
