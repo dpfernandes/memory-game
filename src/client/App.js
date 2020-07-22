@@ -19,10 +19,6 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/404-page">
-            <ErrorPage />
-          </Route>
-          <Redirect to="/404-page" />
         </Switch>
       </Router>
     </AppContext.Provider>
