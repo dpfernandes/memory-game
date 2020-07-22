@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import { Link } from 'react-router-dom';
 
 import GameLogoComponent from '../../components/GameLogoComponent/GameLogoComponent';
 import SpoonImageComponent from '../../components/SpoonImageComponent/SpoonImageComponent';
@@ -18,12 +19,9 @@ export const Home = () => (
         <Title title="Memory Game" subtitle="- perserve culinary heritage -" />
       </div>
       <ForkImageComponent />
-      <SubmitButton
-        buttonTitle="Play EAT THE PAIR"
-        onClick={() => {
-          location.href = '../pick-game-page';
-        }}
-      />
+      <Link to="/pick-game-page">
+        <SubmitButton buttonTitle="Play EAT THE PAIR" />
+      </Link>
       <SpoonImageComponent />
       <Footer />
     </div>
