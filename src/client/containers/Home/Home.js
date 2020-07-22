@@ -5,7 +5,7 @@ import '../../App.css';
 // import SpoonImageComponent from '../../components/SpoonImageComponent/SpoonImageComponent';
 // import ForkImageComponent from '../../components/ForkImageComponent/ForkImageComponent';
 import Title from '../../components/Title/Title';
-import SubmitButton from '../../components/SubmitButton/SubmitButton';
+// import SubmitButton from '../../components/SubmitButton/SubmitButton';
 import Footer from '../../components/FooterComponent/FooterComponent';
 
 export const Home = () => (
@@ -16,12 +16,12 @@ export const Home = () => (
         <Title title="Memory Game" subtitle="- perserve culinary heritage -" />
       </div>
       {/* <ForkImageComponent /> */}
-      <SubmitButton
+      {/* <SubmitButton
         buttonTitle="Play EAT THE PAIR"
         onClick={() => {
           location.href = '../pick-game-page';
         }}
-      />
+      /> */}
       {/* <SpoonImageComponent />  */}
       <Footer />
     </div>
