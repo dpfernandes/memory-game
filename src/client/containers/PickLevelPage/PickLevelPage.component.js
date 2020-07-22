@@ -3,11 +3,9 @@ import '../../App.css';
 import GameLogo from '../../assets/images/logo/logo_3x.png';
 import Fork from '../../assets/images/icons/fork_3x.png';
 import Spoon from '../../assets/images/icons/spoon_3x.png';
-
 import Title from '../../components/Title/Title';
 import GameTitle from '../../components/GameTitle/GameTitle';
 import Card from '../../components/Card/Card';
-
 import Footer from '../../components/FooterComponent/FooterComponent';
 
 export const PickLevelPage = () => (

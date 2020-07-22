@@ -3,6 +3,7 @@ import '../../App.css';
 import GameLogo from '../../assets/images/logo/logo_3x.png';
 import Fork from '../../assets/images/icons/fork_3x.png';
 import Spoon from '../../assets/images/icons/spoon_3x.png';
+import { Link } from 'react-router-dom';
 
 import Title from '../../components/Title/Title';
 
@@ -18,20 +19,12 @@ export const PickGamePage = () => (
         </div>
         <Title title="Memory Game" subtitle="perserve culinary heritage" />
         <img src={Fork} alt="Fork" />
-
-        <SubmitButton
-          buttonTitle="Smørrebrød"
-          onClick={() => {
-            location.href = '../';
-          }}
-        />
-
-        <SubmitButton
-          buttonTitle="Wienerbrød"
-          onClick={() => {
-            location.href = '../';
-          }}
-        />
+        <Link to="/pick-level-page">
+          <SubmitButton buttonTitle="Smørrebrød" />
+        </Link>
+        <Link to="/pick-level-page">
+          <SubmitButton buttonTitle="Wienerbrød" />
+        </Link>
 
         <img src={Spoon} alt="Spoon" />
       </div>
