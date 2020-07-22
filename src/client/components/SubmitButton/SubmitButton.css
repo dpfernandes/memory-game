@@ -1,0 +1,19 @@
+.button-component {
+  color: white;
+  font-family: sans-serif;
+  background: #f26114;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-size: 25px;
+  line-height: 42px;
+  padding: 12px 22px;
+}
+
+.button-component:focus {
+  background-color: rgb(251, 168, 92);
+}
+
+.button-component:disabled {
+  background-color: hsl(20.8, 40.5%, 51.4%);
+}
