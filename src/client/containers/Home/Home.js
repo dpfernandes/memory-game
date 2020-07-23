@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
-
 import GameLogoComponent from '../../components/GameLogoComponent/GameLogoComponent';
 import SpoonImageComponent from '../../components/SpoonImageComponent/SpoonImageComponent';
 import ForkImageComponent from '../../components/ForkImageComponent/ForkImageComponent';

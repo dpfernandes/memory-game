@@ -1,7 +1,6 @@
 import React from 'react';
 import Game from '../../components/Game/Game';
-import GameLogo from '../../assets/images/logo/logo_3x.png';
-
+import GameLogoComponent from '../../components/GameLogoComponent/GameLogoComponent';
 import SpoonImageComponent from '../../components/SpoonImageComponent/SpoonImageComponent';
 import Timer from '../../components/Timer/Timer';
 import ForkImageComponent from '../../components/ForkImageComponent/ForkImageComponent';
@@ -12,7 +11,7 @@ export const GamePage = () => (
     <div className="bodywrapper">
       <div className="homelogocontainer">
         <div className="homelogo">
-          <img src={GameLogo} alt="Game Logo" />
+          <GameLogoComponent />
         </div>
         <Timer countdown={120} />
         <ForkImageComponent />
