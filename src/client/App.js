@@ -15,7 +15,7 @@ import { VoucherPage } from './containers/VoucherPage/VoucherPage.component';
 import { AppContext } from './AppContext';
 
 function App() {
-  const [appState, setAppState] = useState({ gameCode: '20', teamName: '' });
+  const [appState, setAppState] = useState();
 
   return (
     <AppContext.Provider value={{ appState, setAppState }}>
