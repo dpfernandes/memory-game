@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import { Link } from 'react-router-dom';
 import GameLogo from '../../assets/images/logo/logo_3x.png';
 import Fork from '../../assets/images/icons/fork_3x.png';
 import Spoon from '../../assets/images/icons/spoon_3x.png';
@@ -20,20 +21,13 @@ export const PickLevelPage = () => (
         <GameTitle title="Smørrebrød" />
 
         <span>
-          <Card
-            text="Easy"
-            image=""
-            onClick={() => {
-              location.href = '../';
-            }}
-          />
-          <Card
-            text="Hard"
-            image=""
-            onClick={() => {
-              location.href = '../';
-            }}
-          />
+          <Link to="/game-page">
+            <Card text="Easy" image="" />
+          </Link>
+
+          <Link to="/game-page">
+            <Card text="Hard" image="" />
+          </Link>
         </span>
 
         <img src={Spoon} alt="Spoon" />

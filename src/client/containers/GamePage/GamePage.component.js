@@ -1,6 +1,7 @@
 import React from 'react';
 import Game from '../../components/Game/Game';
-import GameTitleHeader from '../../components/GameTitleHeader/GameTitleHeader';
+import GameLogo from '../../assets/images/logo/logo_3x.png';
+
 import SpoonImageComponent from '../../components/SpoonImageComponent/SpoonImageComponent';
 import Timer from '../../components/Timer/Timer';
 import ForkImageComponent from '../../components/ForkImageComponent/ForkImageComponent';
@@ -9,8 +10,10 @@ import Footer from '../../components/FooterComponent/FooterComponent';
 export const GamePage = () => (
   <section className="home bodycontainer">
     <div className="bodywrapper">
-      <div className="header-game-container">
-        <GameTitleHeader title="Game Name" />
+      <div className="homelogocontainer">
+        <div className="homelogo">
+          <img src={GameLogo} alt="Game Logo" />
+        </div>
         <Timer countdown={120} />
         <ForkImageComponent />
         <Game level="easy" />
