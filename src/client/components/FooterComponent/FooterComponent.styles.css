@@ -6,8 +6,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 29px;
-  padding-left: 32px;
-  padding-top: 20px;
   padding-bottom: 11px;
 }

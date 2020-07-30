@@ -2,8 +2,9 @@
 
 .button-component {
   color: white;
-  font-family: 'Rammetto One', cursive;
-  margin-top: 10px;
+  font-family: 'Inknut Antiqua', Black;
+  text-align: center;
+  margin: 10px auto 0px auto;
   background: #f26114;
   border-radius: 5px;
   border: none;
@@ -12,3 +13,5 @@
   font-size: 25px;
   line-height: 42px;
 }
+
+

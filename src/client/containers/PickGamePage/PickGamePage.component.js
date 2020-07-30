@@ -15,17 +15,28 @@ export const PickGamePage = () => (
         <div className="homelogo">
           <GameLogoComponent />
         </div>
-        <Title title="Memory Game" subtitle="perserve culinary heritage" />
-        <ForkImageComponent />
+        <Title title="MEMORY GAME" subtitle="- perserve culinary heritage -" />
+        <div className="forkimage">
+      <ForkImageComponent />
+      </div>
+        <div className="pickGameButton SmørrebrødButton">
         <Link to="/pick-level-page">
           <SubmitButton buttonTitle="Smørrebrød" />
         </Link>
+        </div>
+        <div className="pickGameButton WienerbrødButton">
         <Link to="/pick-level-page">
           <SubmitButton buttonTitle="Wienerbrød" />
         </Link>
-        <SpoonImageComponent />
+        </div>
+        <div className="spoonimage">
+      <SpoonImageComponent />
       </div>
-      <Footer />
+      </div>
     </div>
+    <div class="footer">
+      <Footer />
+      </div>
+
   </section>
 );

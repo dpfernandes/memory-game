@@ -1,13 +1,15 @@
 .button-component {
   color: white;
-  font-family: sans-serif;
+  font-family: 'Inknut Antiqua', Black;
   background: #f26114;
-  border-radius: 10px;
+  border-radius: 17px;
   border: none;
-  width: 100%;
-  font-size: 25px;
+  width: 251px;
+  height: 72px;
+  font-size: 18px;
   line-height: 42px;
   padding: 12px 22px;
+  text-align: center;
 }
 
 .button-component:focus {
@@ -16,4 +18,21 @@
 
 .button-component:disabled {
   background-color: hsl(20.8, 40.5%, 51.4%);
+}
+
+.homebutton{
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 99px;
+}
+
+.SmørrebrødButton{
+  margin-top: 25px;
+}
+.WienerbrødButton{
+  margin-bottom: 29px;
+  margin-top: 28px;
+}
+.pickGameButton{
+  text-align: center;
 }
